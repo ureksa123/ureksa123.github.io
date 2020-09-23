@@ -1,0 +1,85 @@
+@font-face{
+    font-family: Epilogue;
+    src: url(../fonts/Epilogue-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #dddddd;
+}
+
+div#header{
+    font-family: Epilogue, sans-serif;
+    color: #dddddd;
+    background-color: #111111;
+    border: 2px solid #111111;
+    border-radius: 5px 50px ;
+    text-align: center;
+    margin: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    position: left;
+    font-family: Epilogue, sans-serif;
+    background-color: #111111;
+    color: white;
+    border: 2px solid #111111;
+    border-radius: 3px;
+    float: left;
+    width: 69.5%;
+    min-width: 500px;
+    max-width: 1449px;
+    height: auto;
+    overflow: visible;
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-right: 2px;
+    
+}
+
+div#side{
+    display: flex;
+    font-family: Epilogue, sans-serif;
+    background-color: #111111;
+    color: #dddddd;
+    border: 2px solid #111111;
+    border-radius: 3px;
+    width: 28%;
+    float: right;
+    height: auto;
+    overflow: visible;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+main h2{
+    left: 20px;
+    position: relative;
+}
+
+main p{
+    text-align: center;
+}
+
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+div#side ul{
+    position: relative;
+    left: 13px;
+}
+
+a, a:visited{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #4b4848;
+}
